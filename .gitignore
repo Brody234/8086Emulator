@@ -1,0 +1,9 @@
+.vscode/
+disassemble
+
+# Casey Muratori Files Shoutout Casey Muratori Course
+listing_0037_single_register_mov
+listing_0038_many_register_mov
+
+*.asm
+output
