@@ -4,6 +4,8 @@ disassemble
 # Casey Muratori Files Shoutout Casey Muratori Course
 listing_0037_single_register_mov
 listing_0038_many_register_mov
+listing_0039_more_movs
+listing_0039_more_movs
 
 *.asm
 output

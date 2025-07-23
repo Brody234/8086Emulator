@@ -8,6 +8,9 @@ typedef uint16_t reg;
 typedef uint8_t subreg;
 typedef uint8_t regid;
 
+typedef uint8_t byte;
+typedef uint16_t word;
+
 typedef uint8_t inst;
 
 
@@ -49,5 +52,9 @@ const mask16 bit15 = 0x8000;
 // 3 bits 543 from 8 bit
 #define mid_reg_id(x) (((x)>>3) & 0x7)
 
+#define MOD_regrum(x) (((x)>>6) &0x3)
 
+#define mod_REG_rum(x) (((x)>>3) &0x7)
+
+#define modreg_RUM(x) (((x))&0x7)
 #endif
